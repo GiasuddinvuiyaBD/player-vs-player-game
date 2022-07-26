@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JavaScript Game development</title>
+</head>
+<body>
+
+   <div class="container">
+       <h2 class="main-score-headding">Main Score : <span class="mainSscoreElm">10</span></h2>
+       <p class="player1-p-tag-element">Player-1 Score : <span id="player1ScoreElm">5</span> </p>
+       <p class="player2-p-tag-element">Player-2 Score : <span id="player2ScoreElm">5</span> </p>
+       <input class="inputElm" type="text" id="inputElm" placeholder="Enter Number">
+       <div class="errorMessages"></div>
+       
+       <div class="btn-block">
+           <input class="submitBtnElm" type="submit" value="Submit">
+           <button class="p1BtnElm">Player-1</button>
+           <button class="p2BtnElm">Player-2</button>
+           <input class="resetBtnElm" type="reset" value="Reset">
+       </div>
+   </div>
+
+   <!-- success message design -->
+   <div class="successMessJs">
+        <!-- <div class="successMessage">
+            <h2>Player One is Success</h2>
+        </div> -->
+   </div>
+   
+    <script src="js/script.js"></script>
+</body>
+</html>
