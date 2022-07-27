@@ -60,18 +60,30 @@ body
     margin: 14px 0 14px 80px;
 }
 /* success message start here */
-
-.successMessage {
+/*
+.successMessage h2 {
     width: 400px;
     margin: 47px 0 0 523px;
-    padding: 5px;
+    padding: 14px 5px;
     border: 1px solid #bdbdbdbf;
     border-radius: 10px;
-    font-size: 20px;
-    /*box-shadow: 3px 3px 7px 3px #e0e0e0;*/
+    font-size: 25px;
     text-align: center;
     font-family: 'Satisfy', cursive;
     background: #efefef;
 }
+*/
 
-/*error message showing*/
+
+
+
+.successMessage h2 {
+    width: 400px;
+    margin: 47px 0 0 523px;
+    padding: 14px 5px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Satisfy', cursive; 
+    
+}
